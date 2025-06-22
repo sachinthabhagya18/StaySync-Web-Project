@@ -173,21 +173,20 @@ const About: React.FC = () => {
       {/* Footer/Instagram Preview */}
       <section className="py-6 text-center ">
         <h3 className=" font-semibold text-4xl mb-8">@_hotel_theme</h3>
-        <div className="mt-4 flex flex-row leading-relaxded">
-        <div className="flex flex-row md:flex-row items-center justify-center">
+        <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8  w-full p-4 ">
+        
        
          <Image src="/images/misc/2.webp" alt="Preview" width={190} height={80}/>
          <Image src="/images/misc/5.webp" alt="Preview" width={190} height={80}/>
          <Image src="/images/misc/3.webp" alt="Preview" width={190} height={80}/>  
          <Image src="/images/misc/6.webp" alt="Preview" width={190} height={80}/> 
-         </div> 
-         <div className="flex flex-row md:flex-row items-center justify-center">
+         
          <Image src="/images/misc/4.webp" alt="Preview" width={190} height={80}/>
          <Image src="/images/misc/18.webp" alt="Preview" width={190} height={80}/>
          <Image src="/images/misc/12.webp" alt="Preview" width={190} height={80}/>
          <Image src="/images/misc/14.webp" alt="Preview" width={190} height={80}/>
          </div>
-         </div>
+         
       </section>
     </div>
   );
